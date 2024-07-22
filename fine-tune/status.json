@@ -1,0 +1,777 @@
+{
+  "status": [
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": null,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": null
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683647638,
+      "status": "pending",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": null,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": null
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683647638,
+      "status": "pending",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683647806,
+      "status": "pending",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683647856,
+      "status": "pending",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683647856,
+      "status": "pending",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683648013,
+      "status": "running",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 0",
+          "created_at": 1683647994
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune started",
+          "created_at": 1683648012
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683648013,
+      "status": "running",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 0",
+          "created_at": 1683647994
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune started",
+          "created_at": 1683648012
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683648013,
+      "status": "running",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 0",
+          "created_at": 1683647994
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune started",
+          "created_at": 1683648012
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683648013,
+      "status": "running",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 0",
+          "created_at": 1683647994
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune started",
+          "created_at": 1683648012
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683648239,
+      "status": "running",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 0",
+          "created_at": 1683647994
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune started",
+          "created_at": 1683648012
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Completed epoch 1/2",
+          "created_at": 1683648239
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [],
+      "created_at": 1683647638,
+      "updated_at": 1683648307,
+      "status": "running",
+      "fine_tuned_model": null,
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 0",
+          "created_at": 1683647994
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune started",
+          "created_at": 1683648012
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Completed epoch 1/2",
+          "created_at": 1683648239
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Completed epoch 2/2",
+          "created_at": 1683648307
+        }
+      ]
+    },
+    {
+      "object": "fine-tune",
+      "id": "ft-WGvhVYGL7dj7kxndrRGm2f5r",
+      "hyperparams": {
+        "n_epochs": 2,
+        "batch_size": 1,
+        "prompt_loss_weight": 0.01,
+        "learning_rate_multiplier": 0.1
+      },
+      "organization_id": "org-wfZT9N8nwikfxETLc2OFkaWV",
+      "model": "davinci",
+      "training_files": [
+        {
+          "object": "file",
+          "id": "file-cLffYLZbphh3hVdWDUuLBAnS",
+          "purpose": "fine-tune",
+          "filename": "./data/hotel-q&a-dataset_prepared.jsonl",
+          "bytes": 42899,
+          "created_at": 1683647637,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "validation_files": [],
+      "result_files": [
+        {
+          "object": "file",
+          "id": "file-xJiSI8uRivQhNUCwlOMXYMRQ",
+          "purpose": "fine-tune-results",
+          "filename": "compiled_results.csv",
+          "bytes": 23938,
+          "created_at": 1683648341,
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "created_at": 1683647638,
+      "updated_at": 1683648341,
+      "status": "succeeded",
+      "fine_tuned_model": "davinci:ft-personal-2023-05-09-16-05-39",
+      "events": [
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Created fine-tune: ft-WGvhVYGL7dj7kxndrRGm2f5r",
+          "created_at": 1683647638
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune costs $0.45",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune enqueued. Queue number: 2",
+          "created_at": 1683647806
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 1",
+          "created_at": 1683647856
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune is in the queue. Queue number: 0",
+          "created_at": 1683647994
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune started",
+          "created_at": 1683648012
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Completed epoch 1/2",
+          "created_at": 1683648239
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Completed epoch 2/2",
+          "created_at": 1683648307
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Uploaded model: davinci:ft-personal-2023-05-09-16-05-39",
+          "created_at": 1683648340
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Uploaded result file: file-xJiSI8uRivQhNUCwlOMXYMRQ",
+          "created_at": 1683648341
+        },
+        {
+          "object": "fine-tune-event",
+          "level": "info",
+          "message": "Fine-tune succeeded",
+          "created_at": 1683648341
+        }
+      ]
+    }
+  ]
+}

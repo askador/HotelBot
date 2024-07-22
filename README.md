@@ -1,0 +1,2 @@
+## Task
+Review Transformer model in general and study some of the particular Transformer based language models. Chose some problem domain, and try to fine-tune the chosen model based on specific custom dataset in the context of some NLP related problem (e.g. text classification, text summarization, question/answer task, sentiment analysis, language translation, etc.). Implement your solution, describe the process and demonstrate the result. Write a kind of step-by-step tutorial of your solution implementation.

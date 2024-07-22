@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  padding: 0 10px 0 10px;
+  height: 60px;
+}
+
+.main-container {
+  border-radius: 2%;
+} 
+
+.message-item > div > div {
+  background-color: #97c2e6;
+}
